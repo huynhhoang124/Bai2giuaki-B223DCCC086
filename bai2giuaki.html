@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đồng hồ báo thức</title>
+    <link rel="stylesheet" href="bai2giuaki.css">
+</head>
+
+
+<body>
+    <audio id="alarmSound" src="Coi-bao-thuc-trong-quan-doi-Ken.mp3" type="audio/mp3"></audio>
+
+    <div id="app">
+        <h1>Đồng hồ báo thức</h1>
+        <div>
+            <label for="minutes">Phút:</label>
+            <input type="number" id="minutes" min="0" value="0">
+        </div>
+        <div>
+            <label for="seconds">Giây:</label>
+            <input type="number" id="seconds" min="0" value="0">
+        </div>
+        <button id="startBtn">START</button>
+        <button id="resetBtn">RESET</button>
+        <div id="countdownDisplay"></div>
+    </div>
+    <script src="bai2giuaki.js"></script>
+</body>
+
+</html>
